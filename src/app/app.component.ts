@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = '09-forms-reactive';
+  genders: string[] = ["male", "female"];
 }
